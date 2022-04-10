@@ -270,7 +270,7 @@
     
     
     resource "aws_instance" "WP_1" {
-        ami = "ami-052a50faa2f4d8840"
+        ami = "Your Ami Wordpress" 
         instance_type = "t2.micro"
         availability_zone = "us-east-1a"
         
@@ -294,7 +294,7 @@
     }
     
     resource "aws_instance" "WP_2" {
-        ami = "ami-052a50faa2f4d8840"
+        ami = "Your Ami Wordpress"
         instance_type = "t2.micro"
         availability_zone = "us-east-1b"
        
