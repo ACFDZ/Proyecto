@@ -273,7 +273,7 @@
         ami = "ami-052a50faa2f4d8840"
         instance_type = "t2.micro"
         availability_zone = "us-east-1a"
-        key_name = "tf"
+        
     
         network_interface {
           device_index = 0
@@ -297,7 +297,7 @@
         ami = "ami-052a50faa2f4d8840"
         instance_type = "t2.micro"
         availability_zone = "us-east-1b"
-        key_name = "tf"
+       
     
         network_interface {
           device_index = 0
